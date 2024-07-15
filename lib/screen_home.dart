@@ -19,10 +19,10 @@ class _ScreenHomeState extends State<ScreenHome> {
                   subtitle: Text('Message $index'),
                   leading: CircleAvatar(
                     radius: 30,
-                    backgroundImage: NetworkImage('https://cdn4.sharechat.com/girlswhatsappdp_18223d5_1611198658236_sc_cmprsd_40.jpg?tenant=sc&referrer=pwa-sharechat-service&f=rsd_40.jpg'),
+                    backgroundImage:AssetImage('assets/images/download.jpeg'),
                     backgroundColor: Colors.green,
                   ),
-                  trailing: Text('1$index:00 AM'),
+                  trailing: Text('$index:00 AM'),
                 );
 
               },
